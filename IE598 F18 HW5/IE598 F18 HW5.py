@@ -248,3 +248,7 @@ print("Accuracy score of test data: %0.2f"%accuracy_score(y_test, y_test_pred_ks
 
 #from mlxtend.plotting import plot_decision_regions
 #plot_decision_regions(X_train_skernpca, y_train, clf=ksvm)
+
+print("My name is Zhanjie Shen")
+print("My NetID is: zhanjie2")
+print("I hereby certify that I have read the University policy on Academic Integrity and that I am not in violation.")

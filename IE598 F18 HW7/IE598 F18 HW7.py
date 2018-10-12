@@ -61,3 +61,7 @@ importances_sorted.plot(kind='barh',color='lightgreen')
 plt.title('Features Importances')
 plt.show()
 print (importances)
+
+print("My name is Zhanjie Shen")
+print("My NetID is: zhanjie2")
+print("I hereby certify that I have read the University policy on Academic Integrity and that I am not in violation.")

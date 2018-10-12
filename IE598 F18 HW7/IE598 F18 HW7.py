@@ -25,10 +25,12 @@ for k in [5,10,15,20,25]:
             random_state=2)
     # Fit rf to the training set    
     rf.fit(X_train,y_train)
+    y_pred=rf.predict(X_test)
 
     scores_train = cross_val_score(rf, X_train, y_train, cv=10)
     print ("Accuracy of train data: ",scores_train)
     print("Accuracy: %0.2f (+/- %0.2f)" % (scores_train.mean(), scores_train.std() * 2))
+    print("Out-of-sample accuracy:%0.2f"%accuracy_score(y_test, y_pred))
     time_end=time.time()
     print('totally cost',time_end-time_start)
 
